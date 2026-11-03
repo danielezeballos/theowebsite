@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin — Theo Thompson</title>
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#f4f3ef" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='6' y='24' font-family='Times New Roman,Times,serif' font-size='22' fill='%23111'%3ET%3C/text%3E%3C/svg%3E" />
+  </head>
+  <body class="admin">
+    <header>
+      <nav class="pages" aria-label="Pages">
+        <a href="index.html">Index</a>
+        <a href="cv.html">CV</a>
+        <a href="films.html">Films</a>
+      </nav>
+      <h1><span>Theo Thompson</span></h1>
+      <p>Admin. This updates the CV and the films.</p>
+    </header>
+    <main>
+      <form id="editor" autocomplete="off">
+        <div class="bar">
+          <button class="save" type="submit">Save</button>
+          <p id="status" role="status"></p>
+        </div>
+        <div id="fields"></div>
+      </form>
+    </main>
+    <script src="admin.js"></script>
+  </body>
+</html>

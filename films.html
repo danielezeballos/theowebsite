@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Films — Theo Thompson</title>
+    <meta
+      name="description"
+      content="Films and music videos by Theo Thompson."
+    />
+    <meta name="theme-color" content="#f4f3ef" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="nav.js"></script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='6' y='24' font-family='Times New Roman,Times,serif' font-size='22' fill='%23111'%3ET%3C/text%3E%3C/svg%3E" />
+  </head>
+  <body class="films">
+    <header>
+      <nav class="pages" aria-label="Pages">
+        <a href="cv.html">CV</a>
+        <a href="films.html" aria-current="page">Films</a>
+      </nav>
+      <h1><span>Theo Thompson</span></h1>
+    </header>
+
+    <main class="theatre">
+      <div class="reel">
+      <div class="stage">
+        <div class="screen">
+          <iframe
+            id="player"
+            hidden
+            title=""
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="slate" id="slate"></div>
+        </div>
+        <p class="now" id="now"></p>
+        <p class="now-detail" id="detail"></p>
+      </div>
+      <div class="program" id="program"></div>
+      </div>
+    </main>
+
+    <!-- content:films -->
+    <script type="application/json" id="film-data">
+      [
+        {
+          "label": "Short films",
+          "films": [
+            {
+              "title": "Killdeer",
+              "year": "2026",
+              "detail": "Co-dir. with Lea Taillefer. Prod. Ocean’s Two Productions, Auckland, NZ",
+              "vimeo": "https://vimeo.com/1231081014"
+            },
+            {
+              "title": "Directions",
+              "year": "2026",
+              "detail": "London, UK",
+              "vimeo": ""
+            },
+            {
+              "title": "Daytime Moon",
+              "year": "2025",
+              "detail": "London, UK",
+              "vimeo": ""
+            },
+            {
+              "title": "Seeing Stars",
+              "year": "2025",
+              "detail": "London, UK",
+              "vimeo": ""
+            },
+            {
+              "title": "Bar Italia",
+              "year": "2021",
+              "detail": "Short film, Auckland, NZ",
+              "vimeo": ""
+            },
+            {
+              "title": "Breaks",
+              "year": "2021",
+              "detail": "48-hour film festival, Auckland, NZ",
+              "vimeo": ""
+            },
+            {
+              "title": "AW21 Lueder Studios",
+              "year": "2021",
+              "detail": "London, UK",
+              "vimeo": ""
+            },
+            {
+              "title": "On the Shoulders of Giants",
+              "year": "2020",
+              "detail": "London, UK",
+              "vimeo": ""
+            }
+          ]
+        },
+        {
+          "label": "Selected music videos",
+          "films": [
+            {
+              "title": "Only One Around",
+              "year": "2026",
+              "detail": "Louis Gardner, London, UK",
+              "vimeo": ""
+            },
+            {
+              "title": "Sophie",
+              "year": "2025",
+              "detail": "Sunken, London, UK",
+              "vimeo": ""
+            },
+            {
+              "title": "Twin Scars",
+              "year": "2020",
+              "detail": "Ngahere Wafer, London, UK",
+              "vimeo": ""
+            }
+          ]
+        }
+      ]
+    </script>
+    <!-- /content:films -->
+    <canvas id="dust" aria-hidden="true"></canvas>
+    <script src="films.js"></script>
+    <script src="film.js"></script>
+  </body>
+</html>

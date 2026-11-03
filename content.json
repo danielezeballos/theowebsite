@@ -1,0 +1,215 @@
+{
+  "bio": [
+    "b. Wellington, New Zealand",
+    "Lives and works in London, UK"
+  ],
+  "cv": [
+    {
+      "id": "education",
+      "title": "Education",
+      "note": "",
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            {
+              "year": "2026",
+              "text": "BFA, Goldsmiths University of London, UK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exhibitions",
+      "title": "Selected group exhibitions",
+      "note": "",
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            {
+              "year": "2026",
+              "text": "*Bouncing*, Conditions Studio Programme, Institute of Contemporary Arts, London, UK"
+            },
+            {
+              "year": "2024",
+              "text": "*Revelations*, HeArts Lane Gallery, London, UK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "filmography",
+      "title": "Filmography",
+      "note": "As director. * Direction and cinematography.",
+      "groups": [
+        {
+          "label": "Short films",
+          "items": [
+            {
+              "year": "2026",
+              "text": "*Killdeer*, co-dir. with Lea Taillefer. Prod. Ocean’s Two Productions, Auckland, NZ"
+            },
+            {
+              "year": "2026",
+              "text": "*Directions**, London, UK"
+            },
+            {
+              "year": "2025",
+              "text": "*Daytime Moon**, London, UK"
+            },
+            {
+              "year": "2025",
+              "text": "*Seeing Stars**, London, UK"
+            },
+            {
+              "year": "2021",
+              "text": "*Bar Italia**, short film, Auckland, NZ"
+            },
+            {
+              "year": "2021",
+              "text": "*Breaks**, 48-hour film festival, Auckland, NZ"
+            },
+            {
+              "year": "2021",
+              "text": "*AW21 Lueder Studios*, London, UK"
+            },
+            {
+              "year": "2020",
+              "text": "*On the Shoulders of Giants*, London, UK"
+            }
+          ]
+        },
+        {
+          "label": "Selected music videos",
+          "items": [
+            {
+              "year": "2026",
+              "text": "*Only One Around*, Louis Gardner, London, UK"
+            },
+            {
+              "year": "2025",
+              "text": "*Sophie*, Sunken, London, UK"
+            },
+            {
+              "year": "2020",
+              "text": "*Twin Scars*, Ngahere Wafer, London, UK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "title": "Selected publications",
+      "note": "",
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            {
+              "year": "2022",
+              "text": "*Average 20’s*, The Art Paper, Issue 4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "photography",
+      "title": "Selected photography",
+      "note": "",
+      "groups": [
+        {
+          "label": "",
+          "items": [
+            {
+              "year": "2021",
+              "text": "*Lueder AW*, London Fashion Week"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "films": [
+    {
+      "label": "Short films",
+      "films": [
+        {
+          "title": "Killdeer",
+          "year": "2026",
+          "detail": "Co-dir. with Lea Taillefer. Prod. Ocean’s Two Productions, Auckland, NZ",
+          "vimeo": "https://vimeo.com/1231081014"
+        },
+        {
+          "title": "Directions",
+          "year": "2026",
+          "detail": "London, UK",
+          "vimeo": ""
+        },
+        {
+          "title": "Daytime Moon",
+          "year": "2025",
+          "detail": "London, UK",
+          "vimeo": ""
+        },
+        {
+          "title": "Seeing Stars",
+          "year": "2025",
+          "detail": "London, UK",
+          "vimeo": ""
+        },
+        {
+          "title": "Bar Italia",
+          "year": "2021",
+          "detail": "Short film, Auckland, NZ",
+          "vimeo": ""
+        },
+        {
+          "title": "Breaks",
+          "year": "2021",
+          "detail": "48-hour film festival, Auckland, NZ",
+          "vimeo": ""
+        },
+        {
+          "title": "AW21 Lueder Studios",
+          "year": "2021",
+          "detail": "London, UK",
+          "vimeo": ""
+        },
+        {
+          "title": "On the Shoulders of Giants",
+          "year": "2020",
+          "detail": "London, UK",
+          "vimeo": ""
+        }
+      ]
+    },
+    {
+      "label": "Selected music videos",
+      "films": [
+        {
+          "title": "Only One Around",
+          "year": "2026",
+          "detail": "Louis Gardner, London, UK",
+          "vimeo": ""
+        },
+        {
+          "title": "Sophie",
+          "year": "2025",
+          "detail": "Sunken, London, UK",
+          "vimeo": ""
+        },
+        {
+          "title": "Twin Scars",
+          "year": "2020",
+          "detail": "Ngahere Wafer, London, UK",
+          "vimeo": ""
+        }
+      ]
+    }
+  ]
+}
